@@ -32,3 +32,7 @@ def process_text_files(self):
         even_file.close()
         odd_file.close()
         messagebox.showinfo("Success", "Separation complete! Check your folder for even.txt and odd.txt")
+
+def run_application(self):
+    self.build_user_interface()
+    self.main_window.mainloop()
