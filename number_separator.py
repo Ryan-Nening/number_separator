@@ -12,3 +12,6 @@ def build_user_interface(self):
         self.instruction_label.pack()
         self.process_button = tkinter.Button(self.main_window, text="Choose File & Separate", command=self.process_text_files)
         self.process_button.pack()
+
+def process_text_files(self):
+        input_file_name = filedialog.askopenfilename(title="Select Numbers File")
